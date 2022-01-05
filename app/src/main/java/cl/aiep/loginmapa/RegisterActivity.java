@@ -148,6 +148,7 @@ public class RegisterActivity extends AppCompatActivity {
                 public void onComplete(@NonNull Task<Void> task) {
                     if (task.isSuccessful()){
                         Toast.makeText(RegisterActivity.this, "Registro exitoso", Toast.LENGTH_SHORT).show();
+                        goToLogin();
                     }
                     else{
                         Toast.makeText(RegisterActivity.this, "Registro fallido", Toast.LENGTH_SHORT).show();
@@ -156,5 +157,11 @@ public class RegisterActivity extends AppCompatActivity {
             });
         }
 
+    }
+
+    //Creamos la funcion para acceder a Login
+    private void goToLogin(){
+        Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
+        startActivity(intent);
     }
 }
