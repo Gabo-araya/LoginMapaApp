@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "22312365472",
+    "project_id": "loginmapaapp",
+    "storage_bucket": "loginmapaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22312365472:android:eca63d802ae745e3c208c5",
+        "android_client_info": {
+          "package_name": "cl.aiep.loginmapa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22312365472-q50tn9cp1r4vvb57bpetquuije9ehj43.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cl.aiep.loginmapa",
+            "certificate_hash": "6550ed7bb8ed163e16d9160e6ac7d6cc4dd1eab4"
+          }
+        },
+        {
+          "client_id": "22312365472-73mfvjds1q99l3irp0sfekkgllugdrsc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn8KIm4sBHLGFA957QbOjlH65uiC1u3Tw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22312365472-73mfvjds1q99l3irp0sfekkgllugdrsc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
